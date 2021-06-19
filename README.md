@@ -13,20 +13,5 @@ kiwi515::kiwi515()
     mTwitter = "@kiwi_szs";
     mTwitch = "kiwifru1t";
     mEmail = nullptr;
-    
-    asm
-    {
-        bl data
-        mflr r3
-        addi r4, r3, 0x4
-        addi r5, r4, 0x4
-        bl OSPanic
-        
-        data:
-            blrl
-            fg:  .long 0xFFFFFFFF
-            bg:  .long 0x0750FAFF
-            str: .string "PPC == best instruction set"
-    };
 }
 ```
