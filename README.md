@@ -4,7 +4,7 @@
  * @see kiwi515.github.io
  */
 kiwi515::kiwi515()
-	: m_Introduction("Hello! I am Trevor (Kiwi), a reverse engineering hobbyist.")
+    : m_Introduction("Hello! I am Trevor (Kiwi), a reverse engineering hobbyist.")
 {
     // Overview
     m_FavoriteColor = {7, 80, 250};
