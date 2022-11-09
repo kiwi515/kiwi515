@@ -7,7 +7,7 @@ kiwi515::kiwi515()
     : IntroductionBase("Hello! I am Trevor (Kiwi), a reverse engineering hobbyist.")
 {
     // Overview
-    m_FavoriteColor = {7, 80, 250};
+    m_FavoriteColor = {7, 80, 250, 255};
     m_BestLanguage = "C++";
     m_FavoriteProject = "doldecomp/ogws";
     m_Discord = "kiwi#5018";
